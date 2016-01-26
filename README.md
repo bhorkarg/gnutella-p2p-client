@@ -1,5 +1,5 @@
-# gnutella-p2p-client
-A sample peer to peer client for a Gnutella like network written in C
+# A basic Gnutella p2p Client
+A simple peer to peer client for a Gnutella like network written in C
 
 Refer to the protocol specification here -> http://rfc-gnutella.sourceforge.net/src/rfc-0_6-draft.html
 
@@ -27,11 +27,11 @@ After successful build and run, a menu will be provided listing the supported co
 #### USAGE GUIDELINES
 1. Connect to at least one node (bootstrap node) after starting the application. To connect use the "connect" command and specify ip and port.
 
-    	connect 130.233.195.30 6346
+    	connect 192.168.1.1 6346
 
-    	connect 130.233.195.31 6346
+    	connect 192.168.1.2 6346
 
-    	connect 130.233.195.32 6346
+    	connect 192.168.1.3 6346
 
 2. To view the peers connected to the node, use the "peers" command
 	peers
@@ -43,7 +43,7 @@ After successful build and run, a menu will be provided listing the supported co
 
 Check the peers command to get list of connected peers.
 
-	    pingb 130.233.195.30 6346
+	    pingb 192.168.1.1
 
 5. To disconnect from all peers and exit the application use the "bye" command.
 
