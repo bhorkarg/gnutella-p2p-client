@@ -1,5 +1,5 @@
 # gnutella-p2p-client
-A sample peer to peer client for a Gnutella like network
+A sample peer to peer client for a Gnutella like network written in C
 
 Refer to the protocol specification here -> http://rfc-gnutella.sourceforge.net/src/rfc-0_6-draft.html
 
